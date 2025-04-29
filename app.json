@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "WordOfTheDayExpoApp",
+    "slug": "WordOfTheDayExpoApp",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "sdkVersion": "46.0.0",
+    "devClient": true,
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/548d54a6-24af-4f6f-bbfb-42206b828c80"
+    },
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.arnav.suman.WordOfTheDayExpoApp",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.arnav.suman.WordOfTheDayExpoApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "548d54a6-24af-4f6f-bbfb-42206b828c80"
+      }
+    },
+    "owner": "arnav.suman",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
+  }
+}
